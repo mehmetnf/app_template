@@ -1,0 +1,56 @@
+name: app_template
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  #ARCHITECTURE DEPENDENCY
+  connectivity_plus: ^5.0.2
+
+  #DEPENDENCY
+  flutter_inappwebview: ^5.8.0
+
+  #NETWORK
+  dio: ^5.4.0
+  json_annotation: ^4.8.1
+  json_serializable: ^6.7.1
+
+  #UI
+  cupertino_icons: ^1.0.2
+  lottie: ^2.6.0
+  starsview: ^0.0.2
+
+  #LOCAL DATABASE
+  shared_preferences: ^2.2.2
+
+  #STATE MANAGEMENT
+  flutter_mobx: ^2.0.6+5
+  mobx: ^2.2.0
+  mobx_codegen: ^2.3.0
+
+  #TEMPLATE DEPENDENCY
+  get_it: ^7.6.0
+  freezed: ^2.3.5
+  freezed_annotation: ^2.4.1
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  build_runner: ^2.4.6
+
+
+flutter:
+  uses-material-design: true
+
+  assets:
+  - assets/lottie/
+
+
