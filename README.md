@@ -1,5 +1,6 @@
  - Folder Structure
 
+```
 lib/
 ├── app/
 │   ├── client/                 # Network API key and base URL
@@ -27,6 +28,7 @@ lib/
 │   ├── navigation/             # Navigation logic
 │   └── webview/                # Helper for WebView
 └── main.dart                   # Application entry point
+```
 
 ----------------------------------------------------------------
 
